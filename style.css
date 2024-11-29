@@ -1,0 +1,39 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 18px; /* Размер основного шрифта в <p></p>  */
+    background-color: #cce9ea; /* Цвет фона веб-страницы */
+    color: #FD98FB; /* Цвет основного текста */ 
+}
+h1 {
+    color: #5988FF; /* Цвет заголовка */
+    font-size: 28px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+.alert {
+    color:  #D6FF6B;
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+    25% {
+        color: purple;
+      }
+  
+    50% {
+      color: red;
+    }
+    75% {
+        color: blue;
+      }
+  
+    100% {
+      color: purple;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
+
